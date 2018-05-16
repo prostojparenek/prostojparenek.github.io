@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>rock</title>
+    <link rel=stylesheet href="style.css">
+    </head>
+<body>
+   <table width="800" align="center">
+        <tr>
+        <td>
+      <table widht="798"  height="200">
+        <tr>
+        <th>
+        
+    <ul id="slides">
+    <li class="slide showing"><img src="1.jpg" height="300" width="785"></li>
+ <li class="slide"><img src="2.jpg" height="300" width="785"></li>
+
+
+    </ul>
+
+            
+            </th>
+            </tr>
+            </table>
+          </td>
+            </table>
+   <script>
+        var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2000);
+
+function nextSlide() {
+ slides[currentSlide].className = 'slide';
+ currentSlide = (currentSlide+1)%slides.length;
+ slides[currentSlide].className = 'slide showing';
+}
+       
+           
+      
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
