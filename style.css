@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+}
+
+.bord {
+    border: 1px solid gray;
+    padding: 30px;
+    background-color:burlywood;
+}
+	
+#reset {
+	border: 1px solid gray;
+    background: linear-gradient(135deg, antiquewhite, burlywood);
+	color: gray;
+	margin-top: 30px;
+    width: 462px;
+    height: 110px;
+    font-size:30px;
+	
+}
+
+#reset:hover {
+	color: burlywood;
+	cursor: hand;
+    background: antiquewhite;
+}
+	
+td {				
+	text-align: center;				
+	font-family:Times New Roman;
+	color: gray;				
+}
+#box td {
+	border:solid 1px gray;
+	text-align:center;
+	font-size:40px;
+	font-family:Times New Roman;
+	color: gray;
+	width: 110px;
+	height: 110px;
+    background-color:antiquewhite;
+}
+
+#box td:hover {
+	color: burlywood;
+	cursor: hand;
+}
