@@ -1,2 +1,0 @@
-# prostojparenek.github.io
-АБВГДЕЁЖ
